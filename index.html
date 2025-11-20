@@ -2,85 +2,74 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Treinamento Interativo – Atendimento ao Cliente</title>
 
-  <!-- Metatags para LinkedIn -->
+  <!-- OpenGraph para LinkedIn -->
   <meta property="og:title" content="Treinamento Interativo – Atendimento ao Cliente">
-  <meta property="og:description" content="Projeto interativo criado por Luis Oliveira. Clique para acessar o site oficial.">
+  <meta property="og:description" content="Aplicação interativa criada para aprimorar habilidades de atendimento ao cliente.">
+  <meta property="og:image" content="https://live-projeto1match.pantheonsite.io/wp-content/uploads/2024/10/capa-treinamento.jpg">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Treinamento+Interativo">
+
+  <!-- Redirecionamento -->
+  <meta http-equiv="refresh" content="2; URL='https://live-projeto1match.pantheonsite.io/'" />
 
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f0f4ff;
       margin: 0;
       padding: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7fa;
       color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
       text-align: center;
     }
-    header {
-      background: #004aad;
-      color: white;
-      padding: 40px 20px;
+
+    .card {
+      max-width: 380px;
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 6px 25px rgba(0,0,0,0.10);
+      animation: fadeIn 1.3s ease;
     }
-    h1 {
-      margin: 0;
-      font-size: 28px;
-    }
-    .container {
-      padding: 30px;
-      max-width: 700px;
-      margin: 0 auto;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 15px 25px;
-      background: #004aad;
-      color: white;
-      font-size: 18px;
+
+    .card img {
+      width: 100%;
       border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .link {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #0056ff;
+      color: white;
+      border-radius: 6px;
       text-decoration: none;
-      transition: 0.3s;
+      font-size: 14px;
     }
-    .btn:hover {
-      background: #00337a;
+
+    .link:hover {
+      background: #0040cc;
     }
-    img.icon {
-      width: 120px;
-      margin-top: 30px;
-      opacity: 0.9;
-      transition: 0.3s;
-    }
-    img.icon:hover {
-      opacity: 1;
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
     }
   </style>
 </head>
 <body>
-
-<header>
-  <h1>Treinamento Interativo – Atendimento ao Cliente</h1>
-  <p>Projeto desenvolvido por Luis Oliveira</p>
-</header>
-
-<div class="container">
-  <h2>Acesse o Projeto Oficial</h2>
-  <p>Clique no botão abaixo para visitar o treinamento interativo completo.</p>
-
-  <a class="btn" href="https://live-projeto1match.pantheonsite.io/" target="_blank">
-    🔗 Acessar projeto
-  </a>
-
-  <br>
-
-  <!-- Ícone clicável -->
-  <a href="https://live-projeto1match.pantheonsite.io/" target="_blank">
-    <img class="icon" src="https://cdn-icons-png.flaticon.com/512/545/545682.png" alt="Ícone de acesso">
-  </a>
-</div>
-
+  <div class="card">
+    <img src="https://live-projeto1match.pantheonsite.io/wp-content/uploads/2024/10/capa-treinamento.jpg" alt="Treinamento Interativo">
+    <h2>Redirecionando para o Treinamento Interativo…</h2>
+    <p>Se não for redirecionado automaticamente, clique no botão abaixo:</p>
+    <a class="link" href="https://live-projeto1match.pantheonsite.io/">Acessar o Treinamento</a>
+  </div>
 </body>
 </html>
